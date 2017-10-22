@@ -1,3 +1,8 @@
+'''
+mnist softmax regression in single layer feedforward neural network
+session mode
+'''
+
 from tensorflow.examples.tutorials.mnist import input_data
 mnist  = input_data.read_data_sets("data", one_hot=True)
 
